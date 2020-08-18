@@ -1,0 +1,34 @@
+
+.bottom{
+    margin-top: 650px;
+}
+.article-container {
+    width: 1600px;
+    height: 560px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    position: relative;
+}
+
+.article-img-holder {
+    background-image: url("https://images.pexels.com/photos/3144580/pexels-photo-3144580.jpeg?auto=compress&cs=tinysrgb&w=1500");
+   width: 100%;
+   background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.article-img-holder:hover {
+    transform: scale(1.2);
+}
+.head{
+    text-align: center;
+    font-weight: lighter;
+    color: darkgray;
+    font-style: normal;
+    font-family: fantasy;
+}
+.flame{
+    text-align: left;
+    margin-bottom: 10px;
+    color:darkgray;
+}
